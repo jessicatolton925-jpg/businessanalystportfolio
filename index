@@ -1,0 +1,10 @@
+data-analytics-portfolio/
+│
+├── index.html                ← Homepage
+├── about.html                ← About Me section
+├── projects.html             ← Project gallery
+├── assets/
+│   ├── images/               ← headshot, logos, dashboards
+│   └── css/
+│        └── style.css        ← your custom styling
+└── resume.html               ← embedded PDF or link to resume
