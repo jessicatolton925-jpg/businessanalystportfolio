@@ -3,8 +3,9 @@ body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
-  color: #f4f4f4;
+  background: linear-gradient(120deg, #001f3f, #004080, #007acc);
+  background-attachment: fixed;
+  color: #f5f5f5;
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -12,32 +13,32 @@ body {
 /* === HEADER === */
 .main-header {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   background: linear-gradient(90deg, #007acc, #00b7a8);
   color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .main-header h1 {
-  font-size: 2.3em;
+  font-size: 2.5em;
   margin-bottom: 0.3rem;
 }
 
 .main-header p {
   font-size: 1em;
-  max-width: 750px;
+  max-width: 700px;
   margin: 0.5rem auto;
 }
 
 /* === NAVIGATION === */
 nav {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 nav a {
   text-decoration: none;
   color: white;
-  margin: 0 1rem;
+  margin: 0 1.2rem;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -49,17 +50,17 @@ nav a.active {
 
 /* === INTRO SECTION === */
 #intro {
-  max-width: 950px;
+  max-width: 900px;
   margin: 2.5rem auto;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
 }
 
 #intro h2 {
   color: #ffd700;
-  font-size: 1.8em;
+  font-size: 1.9em;
   margin-bottom: 1rem;
 }
 
@@ -71,7 +72,7 @@ nav a.active {
 /* === PREVIEW CARDS === */
 #previews {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
 }
 
 #previews h2 {
@@ -87,9 +88,9 @@ nav a.active {
 }
 
 .preview-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
   border-radius: 15px;
-  padding: 1.5rem;
+  padding: 1.8rem;
   width: 280px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -101,7 +102,7 @@ nav a.active {
 }
 
 .preview-card h3 {
-  color: #00b7a8;
+  color: #00e6d2;
 }
 
 .preview-card p {
@@ -128,18 +129,33 @@ nav a.active {
 /* === FOOTER === */
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #0f1b3d;
+  padding: 2.5rem 1rem;
+  background: rgba(0, 0, 30, 0.85);
   color: white;
   margin-top: 3rem;
+  border-top: 2px solid #00b7a8;
 }
 
-footer a {
+footer h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  max-width: 700px;
+  margin: 0.4rem auto;
+}
+
+.contact-links a {
   color: #00b7a8;
   text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.5rem;
 }
 
-footer a:hover {
+.contact-links a:hover {
+  color: #ffd700;
   text-decoration: underline;
 }
+
 
